@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload News</title>
+
+  <style>
+    body{
+      font-family:Arial;
+      background:#f2f2f2;
+      text-align:center;
+    }
+
+    .box{
+      background:white;
+      width:80%;
+      margin:auto;
+      padding:20px;
+      border-radius:10px;
+      box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    input,textarea{
+      width:90%;
+      padding:10px;
+      margin:10px;
+    }
+
+    button{
+      padding:10px 20px;
+      background:green;
+      color:white;
+      border:none;
+      border-radius:5px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>📰 News Upload Page</h1>
+
+<div class="box">
+
+<input type="text" id="title" placeholder="News Title">
+
+<br>
+
+<textarea id="desc" rows="5" placeholder="News Description"></textarea>
+
+<br>
+
+<button onclick="postNews()">Post News</button>
+
+<div id="newsBox"></div>
+
+</div>
+
+<script>
+
+function postNews(){
+
+let title=document.getElementById("title").value;
+let desc=document.getElementById("desc").value;
+
+let news=document.createElement("div");
+
+news.innerHTML=
+"<h3>"+title+"</h3><p>"+desc+"</p><hr>";
+
+document.getElementById("newsBox").appendChild(news);
+
+}
+
+</script>
+
+<br>
+
+<a href="index.html">⬅ Back to Home</a>
+
+</body>
+</html>
