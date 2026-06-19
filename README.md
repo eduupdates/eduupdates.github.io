@@ -1,7 +1,12 @@
-content://com.android.externalstorage.documents/tree/primary%3AApp::primary:App/index.html
-content://com.android.externalstorage.documents/tree/primary%3AApp::primary:App/polytechnic.html
-content://com.android.externalstorage.documents/tree/primary%3AApp::primary:App/rgukt.html
-content://com.android.externalstorage.documents/tree/primary%3AApp::primary:App/eapcet.html
-content://com.android.externalstorage.documents/tree/primary%3AApp::primary:App/10th.html
-content://com.android.externalstorage.documents/tree/primary%3AApp::primary:App/upload.html
-content://com.android.externalstorage.documents/tree/primary%3AApp::primary:App/login.html
+
+login.html<a href="index.html">Home</a>
+
+<a href="polytechnic.html">Polytechnic</a>
+
+<a href="eapcet.html">EAPCET</a>
+
+<a href="rgukt.html">RGUKT</a>
+
+<a href="10th.html">10th</a>
+
+<a href="login.html">Login</a>
