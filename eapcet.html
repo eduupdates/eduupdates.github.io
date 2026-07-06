@@ -1,22 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EAPCET Updates</title>
+
 <style>
-body{font-family:Arial;background:#f2f2f2;margin:0;}
-.header{background:#1e3a8a;color:white;padding:15px;text-align:center;}
-.card{background:white;margin:15px;padding:15px;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.2);}
-img{width:100%;max-width:400px;border-radius:10px;}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#f2f2f2;
+}
+
+.header{
+background:#1e3a8a;
+color:#fff;
+padding:18px;
+text-align:center;
+}
+
+.container{
+width:100%;
+max-width:700px;
+margin:auto;
+padding:15px;
+}
+
+.card{
+background:#fff;
+padding:18px;
+margin-bottom:18px;
+border-radius:12px;
+box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+
+.card img{
+width:100%;
+height:auto;
+border-radius:10px;
+}
+
+.card h3{
+margin:15px 0 10px;
+}
+
+.card ul{
+padding-left:20px;
+}
+
+.card li{
+margin:8px 0;
+}
+
+a{
+color:#1e3a8a;
+text-decoration:none;
+font-weight:bold;
+}
+
+.back{
+text-align:center;
+margin:20px;
+}
 </style>
 </head>
+
 <body>
 
 <div class="header">
 <h1>📝 EAPCET Updates</h1>
 </div>
 
+<div class="container">
+
 <div class="card">
-<img src="eapcet.jpg">
+<img src="eapcet.jpg" alt="EAPCET">
 <h3>EAPCET Counselling</h3>
 <p>Latest counselling and rank card updates.</p>
 </div>
@@ -31,19 +94,18 @@ img{width:100%;max-width:400px;border-radius:10px;}
 </ul>
 </div>
 
-<center>
+<div class="card">
+<h3>🔗 Important EAPCET Links</h3>
+<ul>
+<li><a href="https://cets.apsche.ap.gov.in" target="_blank">AP EAPCET Official Website</a></li>
+</ul>
+</div>
+
+<div class="back">
 <a href="index.html">⬅ Back to Home</a>
-</center>
+</div>
+
+</div>
 
 </body>
-</html><div class="card">
-  <h3>🔗 Important EAPCET Links</h3>
-
-  <ul>
-    <li>
-      <a href="https://cets.apsche.ap.gov.in" target="_blank">
-        AP EAPCET Official Website
-      </a>
-    </li>
-  </ul>
-</div>
+</html>
