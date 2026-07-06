@@ -94,6 +94,46 @@ a{
       text-decoration: none;
       color: black;
     }
+.card{
+display:flex;
+align-items:center;
+background:#fff;
+width:85%;
+max-width:700px;
+margin:20px auto;
+padding:20px;
+border-radius:20px;
+box-shadow:0 4px 12px rgba(0,0,0,.15);
+text-decoration:none;
+color:#000;
+}
+
+.icon{
+font-size:45px;
+margin-right:20px;
+}
+
+.text{
+flex:1;
+text-align:left;
+}
+
+.text h2{
+margin:0;
+font-size:24px;
+}
+
+.text p{
+margin-top:8px;
+font-size:16px;
+color:#555;
+line-height:1.5;
+}
+
+.arrow{
+font-size:40px;
+color:#333;
+}
   </style>
 </head>
 
@@ -115,20 +155,40 @@ a{
 
     <h1 style="color:blue;">Education Updates</h1>
 
-    <a href="polytechnic.html">
-      <div class="box">📚 Polytechnic Updates</div>
-    </a>
+    <a href="polytechnic.html" class="card">
+    <div class="icon">📚</div>
+    <div class="text">
+        <h2>Polytechnic Updates</h2>
+        <p>Latest Polytechnic Results, Notifications, Admissions & News</p>
+    </div>
+    <div class="arrow">›</div>
+</a>
 
-    <a href="rgukt.html">
-      <div class="box">🏫 RGUKT Updates</div>
-    </a>
+<a href="rgukt.html" class="card">
+    <div class="icon">🏫</div>
+    <div class="text">
+        <h2>RGUKT Updates</h2>
+        <p>Latest RGUKT Results, Admissions, Notifications & News</p>
+    </div>
+    <div class="arrow">›</div>
+</a>
 
-    <a href="eapcet.html">
-      <div class="box">📝 EAPCET Updates</div>
-    </a>
+<a href="eapcet.html" class="card">
+    <div class="icon">📝</div>
+    <div class="text">
+        <h2>EAPCET Updates</h2>
+        <p>Latest EAPCET News, Results, Counselling & Notifications</p>
+    </div>
+    <div class="arrow">›</div>
+</a>
 
-    <a href="10th.html">
-      <div class="box">🎓 10th Class Updates</div>
-    </a>
+<a href="10th.html" class="card">
+    <div class="icon">🎓</div>
+    <div class="text">
+        <h2>10th Class Updates</h2>
+        <p>Latest 10th Results, Hall Tickets & News</p>
+    </div>
+    <div class="arrow">›</div>
+</a>
 
   </div>
