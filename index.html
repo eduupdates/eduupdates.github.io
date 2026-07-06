@@ -52,25 +52,29 @@
     }
 
     /* NAVBAR */
-    .navbar {
-      background: #1e3a8a;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px 20px;
-    }
+    .navbar{
+    background:#0d47a1;
+    color:#fff;
+    padding:15px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+    position:sticky;
+    top:0;
+}
 
-    .logo {
-      font-size: 20px;
-      font-weight: bold;
-    }
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
 
-    .nav-links a {
-      color: white;
-      margin-left: 15px;
-      text-decoration: none;
-    }
+.nav-links a{
+    color:#fff;
+    margin-left:20px;
+    font-size:18px;
+    font-weight:bold;
+}
 
     /* BOX */
     .container {
@@ -134,6 +138,21 @@ line-height:1.5;
 font-size:40px;
 color:#333;
 }
+.title{
+    color:#0d47a1;
+    font-size:48px;
+    margin-top:30px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+.line{
+    width:120px;
+    height:5px;
+    background:#0d47a1;
+    margin:0 auto 40px;
+    border-radius:20px;
+}
   </style>
 </head>
 
@@ -153,7 +172,8 @@ color:#333;
   <!-- CONTENT -->
   <div class="container">
 
-    <h1 style="color:blue;">Education Updates</h1>
+    <h1 class="title">Education Updates</h1>
+<div class="line"></div>
 
     <a href="polytechnic.html" class="card">
     <div class="icon">📚</div>
